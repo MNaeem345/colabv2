@@ -1,0 +1,45 @@
+.experiences-card{
+    padding-bottom: 20px;
+
+}
+
+.MuiCard-root {
+    margin-bottom: 30px;
+    
+}   
+.all-about{
+    margin-top: 230px;
+
+}
+
+
+.company-name{
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+}
+
+.date{
+    margin-left: 10px;
+    color: rgb(172, 172, 172);
+}
+
+.experience-description{
+    
+    font-size: 14px;
+}
+
+.MuiPaper-root {
+    
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms !important;
+    background-color: #0dcaf047 !important;
+    padding: 10px;
+}
+
+.MuiPaper-elevation1 {
+    box-shadow: 0px 5px 4px 1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 5px -1px 3px 0px rgba(0,0,0,0.12) !important;
+}
+
+.MuiPaper-rounded {
+    border-radius: 14px;
+}

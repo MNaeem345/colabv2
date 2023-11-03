@@ -1,0 +1,26 @@
+.Description{
+    display: flex;
+    flex-direction: row;
+
+}
+.DescriptionCard{
+    margin: 15px 15px;
+    max-width: fit-content;
+}
+.AbilitiesCard{
+    align-items: flex-end;
+    margin-top: 15px;
+    max-width: fit-content;
+}
+
+.nomes {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.5rem;
+}
+.PokemonDetails{
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}

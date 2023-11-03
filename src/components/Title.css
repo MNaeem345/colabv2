@@ -1,0 +1,50 @@
+.title-component{
+    margin-top: 290px;
+    
+}
+.title-full{
+    background-image: "../img/MN (2).png";
+}
+
+.intro{
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    font-weight:300;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.intro2{
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+.res-button2{
+    width: 200px;
+    height: 60px;
+    border: 0;
+    background-color: black;
+    color: white;
+    transition-duration: 0.5s;
+    font-size: 20px;
+    
+    
+  
+    
+  }
+  
+  .res-button2:hover{
+    background-color: rgb(182, 173, 173);
+  }
+
+.resume{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    
+}
+
+
