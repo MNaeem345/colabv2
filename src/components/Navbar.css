@@ -31,11 +31,15 @@
 .nav-container{
   background-color: rgb(255, 255, 255);
   padding: 15px;
-  box-shadow: 2px 5px 20px rgba(158, 155, 155, 0.178);;
+  box-shadow: 2px 5px 20px rgba(158, 155, 155, 0.178);
   width: 100%;
-  position: fixed;
+  position:fixed;
+  
   top: 0;
+  left: 0;
   z-index: 1000;
+
+  
   
 }
 
@@ -97,7 +101,9 @@
   font-size: 40px;
   cursor: pointer;
   transition: all 3s ease;
-  margin-left: auto;
+  margin-left:auto;
+  
+  
   
 }
 .navbar-toggle.open {

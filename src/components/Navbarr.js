@@ -57,7 +57,7 @@ export default function Navbarr() {
     <section id='top'>
     <div className='nav-container'>
       <nav className={`nav-bar ${isOpen ? 'open' : ''}`}>
-        <a href='top' onClick={() => handleSmoothScroll("top")} className="logo"><img src={logo} className="logo"></img></a>
+        <a href='#top' onClick={() => handleSmoothScroll("top")} className="logo"><img src={logo} className="logo"></img></a>
         <button className={`navbar-toggle ${isOpen ? 'open' : ''}`} onClick={toggleNavbar}>
                 <i className={`fa ${isOpen ? 'fa-times' : 'fa-bars'}`} />
             </button>
